@@ -1,0 +1,45 @@
+.details__container {
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: -50%;
+    bottom: -50%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details__container-inner {
+    background: linear-gradient(135deg, rgb(0, 0, 0) 90%, rgb(123, 0, 0) 100%);
+    box-shadow: 0 8px 16px rgb(101, 1, 1);
+    min-width: 290px;
+    height: 430px;
+    padding: 0.5rem;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 11px;
+    border-radius: 1rem;
+    border: 1px solid rgb(101, 1, 1) ;
+}
+
+.img__detail {
+    display: flex;
+    justify-content: center;
+}
+
+.image__datails {
+    width: 280px;
+    border-radius: 0.5rem;
+}
+
+.detail__information {
+    padding-top: 1rem;
+    text-align: justify;
+}
+
+.details__overview {
+    padding-top: 0.5rem;
+}

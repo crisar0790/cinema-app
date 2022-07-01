@@ -1,0 +1,15 @@
+input[type="radio"] {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+    transition: color 200ms;
+}
+
+.filter__container {
+    min-width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,44 @@
+.card__container {
+    width: 220px;
+    height: 380px;
+    position: relative;
+    border: 1px solid rgb(63, 63, 63);
+    text-align: center;
+    transition: all 0.25s;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color:#fff;
+    background: linear-gradient(135deg, rgb(0, 0, 0) 80%, rgb(68, 1, 1) 100%); 
+}
+
+.card__container:hover {
+    transform: translateY(0px);
+}
+
+.image__container {
+    height: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.img__movies{
+    height: 250px;
+    border-radius: 5px;
+}
+
+.nameAndRating {
+    height: 25%;
+    line-height: 2rem;
+}
+
+.star__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}

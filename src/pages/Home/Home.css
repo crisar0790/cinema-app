@@ -1,0 +1,61 @@
+.home__container {
+    background: linear-gradient(135deg, rgb(0, 0, 0) 90%, rgb(123, 0, 0) 100%); 
+    overflow: scroll;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchAndFilter {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/87/73578b94f836a03.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    opacity: 1;
+    border-radius: 7px;
+    border: 2px solid rgb(60, 51, 48);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    gap: 1.2rem
+}
+
+.cards__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.searchInput {
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 7rem;
+    border: none;
+}
+
+.not__found {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.not__found p {
+    font-size: 1rem;
+}
