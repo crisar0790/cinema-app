@@ -13,3 +13,15 @@ input[type="radio"] {
     align-items: center;
     justify-content: space-evenly;
 }
+
+@media (max-width: 500px) {
+    .filter__container span {
+        display: none;
+    }
+    .filter__container {
+        justify-content: center;
+    }
+    .star {
+        margin: 0.5rem;
+    }
+}

@@ -30,13 +30,19 @@
 }
 
 .cards__container {
+    padding-top: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-gap: 4rem;
+    box-sizing: border-box;
     width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2.5rem;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin: auto;
 }
 
 .searchInput {
@@ -58,4 +64,13 @@
 
 .not__found p {
     font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+    .searchAndFilter h1 {
+        display: none;
+    }
+    .searchInput {
+        width: 18rem;
+    }
 }
